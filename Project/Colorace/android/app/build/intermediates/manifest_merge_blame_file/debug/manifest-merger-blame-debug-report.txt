@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ubban.aJetpack"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:68:5-71:39
+12        android:anyDensity="true"
+12-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:70:9-34
+13        android:largeScreens="true"
+13-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:68:23-50
+14        android:normalScreens="true"
+14-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:71:9-37
+15        android:smallScreens="true" />
+15-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:69:9-36
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:73:5-67
+17-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:73:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:76:5-79
+18-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:76:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:77:5-75
+19-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:77:22-73
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:78:5-81
+20-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:78:22-78
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:79:5-81
+21-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:79:22-78
+22
+23    <application
+23-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:7:5-66:19
+24        android:name="androidx.multidex.MultiDexApplication"
+24-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:10:9-61
+25        android:allowBackup="true"
+25-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:9:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.5.0] C:\Users\marin\.gradle\caches\transforms-3\4cb2d3ae910a25e4d3b75b6b0d8d1b11\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@drawable/icon"
+28-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:8:9-38
+29        android:label="@string/app_name" >
+29-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:7:18-50
+30
+31        <!-- admob -->
+32        <!--
+33        <meta-data
+34            android:name="com.google.android.gms.ads.APPLICATION_ID"
+35            android:value="@string/admob_app_id"/>
+36        <meta-data
+37            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+38            android:value="true"/>
+39        -->
+40        <!-- admob -->
+41
+42
+43        <!-- facebook-analytics -->
+44        <!--
+45        <meta-data
+46            android:name="com.facebook.sdk.ApplicationId"
+47            android:value="@string/facebook_app_id"/>
+48        <meta-data
+49            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+50            android:value="false"/>
+51        <meta-data
+52            android:name="com.facebook.sdk.AutoInitEnabled"
+53            android:value="false"/>
+54        <meta-data
+55            android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+56            android:value="false"/>
+57        -->
+58        <!-- facebook-analytics -->
+59
+60
+61        <!-- adbox-applovin -->
+62<!--   -->
+63        <!-- adbox-applovin -->
+64
+65
+66        <!-- adbox-vungle -->
+67<!--   -->
+68        <!-- adbox-vungle -->
+69
+70        <meta-data
+70-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:42:9-43:69
+71            android:name="com.google.android.gms.version"
+71-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:42:20-65
+72            android:value="@integer/google_play_services_version" />
+72-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:43:13-66
+73        <meta-data
+73-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:44:9-45:46
+74            android:name="com.google.android.gms.games.APP_ID"
+74-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:44:20-70
+75            android:value="@string/app_id" />
+75-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:45:13-43
+76
+77        <activity
+77-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:47:9-57:20
+78            android:name="com.ubban.aJetpack.PTPlayer"
+78-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:47:19-43
+79            android:configChanges="orientation"
+79-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:52:13-48
+80            android:exported="true"
+80-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:51:13-36
+81            android:label="@string/app_name"
+81-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:48:13-45
+82            android:screenOrientation="landscape"
+82-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:49:13-50
+83            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+83-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:50:13-71
+84            <intent-filter>
+84-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:53:13-56:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:54:17-69
+85-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:54:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:55:17-77
+87-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:55:27-74
+88            </intent-filter>
+89        </activity>
+90
+91        <uses-library
+91-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:59:9-87
+92            android:name="org.apache.http.legacy"
+92-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:59:23-60
+93            android:required="false" />
+93-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:59:61-85
+94
+95        <activity
+95-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:61:9-64:20
+96            android:name="com.buildbox.consent.ConsentActivity"
+96-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:62:13-64
+97            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+97-->C:\Users\marin\OneDrive\Documents\One-Long-Night\Project\Colorace\android\app\src\main\AndroidManifest.xml:63:13-69
+98        </activity>
+99        <activity
+99-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\marin\.gradle\caches\transforms-3\4c1017193cf8eeb3ca3c8442d9fc3cda\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+100            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+100-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\marin\.gradle\caches\transforms-3\4c1017193cf8eeb3ca3c8442d9fc3cda\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+101            android:excludeFromRecents="true"
+101-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\marin\.gradle\caches\transforms-3\4c1017193cf8eeb3ca3c8442d9fc3cda\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\marin\.gradle\caches\transforms-3\4c1017193cf8eeb3ca3c8442d9fc3cda\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\marin\.gradle\caches\transforms-3\4c1017193cf8eeb3ca3c8442d9fc3cda\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+104        <!--
+105            Service handling Google Sign-In user revocation. For apps that do not integrate with
+106            Google Sign-In, this service will never be started.
+107        -->
+108        <service
+108-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\marin\.gradle\caches\transforms-3\4c1017193cf8eeb3ca3c8442d9fc3cda\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+109            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+109-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\marin\.gradle\caches\transforms-3\4c1017193cf8eeb3ca3c8442d9fc3cda\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+110            android:exported="true"
+110-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\marin\.gradle\caches\transforms-3\4c1017193cf8eeb3ca3c8442d9fc3cda\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+111            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+111-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\marin\.gradle\caches\transforms-3\4c1017193cf8eeb3ca3c8442d9fc3cda\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+112            android:visibleToInstantApps="true" />
+112-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\marin\.gradle\caches\transforms-3\4c1017193cf8eeb3ca3c8442d9fc3cda\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\marin\.gradle\caches\transforms-3\b0876dab62808ac2e3b1520cfab449cf\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\marin\.gradle\caches\transforms-3\b0876dab62808ac2e3b1520cfab449cf\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\marin\.gradle\caches\transforms-3\b0876dab62808ac2e3b1520cfab449cf\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\marin\.gradle\caches\transforms-3\b0876dab62808ac2e3b1520cfab449cf\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+118    </application>
+119
+120</manifest>
