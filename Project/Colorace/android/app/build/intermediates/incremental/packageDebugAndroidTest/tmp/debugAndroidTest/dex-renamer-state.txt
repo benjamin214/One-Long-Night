@@ -1,0 +1,7 @@
+#Mon Jan 23 18:40:20 CET 2023
+base.1=C\:\\Users\\marin\\OneDrive\\Documents\\One-Long-Night\\Project\\Colorace\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\12\\classes.dex
+path.1=12/classes.dex
+base.0=C\:\\Users\\marin\\OneDrive\\Documents\\One-Long-Night\\Project\\Colorace\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex
